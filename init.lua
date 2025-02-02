@@ -95,7 +95,8 @@ vim.keymap.set({ 'n', 'x' }, 's', '<Nop>')
 -- Moving blocks of text up and down in visual mode
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
-
+-- New Tab keymap
+vim.keymap.set('n', '<C-t>', '<cmd>tabnew<cr>')
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
